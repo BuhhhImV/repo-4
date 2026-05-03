@@ -24,4 +24,10 @@ AuraBank is a Gen-Z focused financial wellness prototype built with a stunning *
 
 ---
 
-> **Note on Screenshot:** Please place a screenshot of your local instance here! Replace this text with `![AuraBank Screenshot](./screenshot.png)` once you capture it.
+## Previews
+Here are some conceptual mockups of the AuraBank interface:
+
+<div align="center">
+  <img src="./docs/home.png" width="45%" alt="AuraBank Home Screen" />
+  <img src="./docs/squad.png" width="45%" alt="AuraBank Squad Goals" />
+</div>
