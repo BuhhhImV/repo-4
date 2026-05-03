@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AuraBank – The Financial Vibe-Check</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@800;900&family=Caveat:wght@600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- App Container (Sidebar on desktop, Bottom Nav on mobile) -->
+    <div id="app-container">
+      
+      <!-- Top Header -->
+      <header id="app-header">
+        <div class="logo">Aura<span class="highlight">Bank</span></div>
+        <div class="header-right">
+          <div id="header-chip" class="chip chip-lime">✦ GLOWING ERA</div>
+          <div class="avatar-circle">ZK</div>
+        </div>
+      </header>
+
+      <!-- Sidebar (Desktop only) -->
+      <nav id="sidebar">
+        <button class="nav-item active" data-tab="home"><span class="icon">✦</span> Home</button>
+        <button class="nav-item" data-tab="subs"><span class="icon">🧛</span> Vampires</button>
+        <button class="nav-item" data-tab="squad"><span class="icon">🎯</span> Squad</button>
+        <button class="nav-item" data-tab="profile"><span class="icon">👤</span> Me</button>
+      </nav>
+
+      <!-- Main Content Area -->
+      <main id="main-content">
+        <!-- Screens will be dynamically injected here -->
+      </main>
+
+      <!-- Bottom Nav Bar (Mobile only) -->
+      <nav id="bottom-nav">
+        <button class="nav-item active" data-tab="home"><span class="icon">✦</span> Home</button>
+        <button class="nav-item" data-tab="subs"><span class="icon">🧛</span> Vampires</button>
+        <button class="nav-item" data-tab="squad"><span class="icon">🎯</span> Squad</button>
+        <button class="nav-item" data-tab="profile"><span class="icon">👤</span> Me</button>
+      </nav>
+      
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
